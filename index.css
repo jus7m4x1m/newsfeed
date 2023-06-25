@@ -177,6 +177,10 @@ body {
 
 .main-article__text {
   margin-bottom: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /*small-article*/
@@ -196,6 +200,10 @@ body {
   font-size: 20px;
   font-weight: 700;
   cursor: pointer;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /*footer*/
